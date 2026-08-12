@@ -7,7 +7,7 @@
 4. Connect your GitHub repository.
 5. Make sure the Root Directory is set to `backend` so Render detects the `render.yaml` blueprint.
 6. In the dashboard, configure the required Environment Variables:
-   - `GEMINI_API_KEY`
+   - `GROQ_API_KEY`
    - `SUPABASE_URL`
    - `SUPABASE_KEY`
 7. Note: The Render free tier goes to sleep after 15 minutes of inactivity. Our Next.js app can optionally hit the `/health` endpoint to wake it up on load.
