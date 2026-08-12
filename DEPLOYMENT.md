@@ -5,8 +5,7 @@
 2. Log in to [Render](https://render.com).
 3. Click "New" -> "Blueprint".
 4. Connect your GitHub repository.
-5. Make sure the Root Directory is set to `backend` so Render detects the `render.yaml` blueprint.
-6. In the dashboard, configure the required Environment Variables:
+5. In the dashboard, configure the required Environment Variables:
    - `GROQ_API_KEY`
    - `SUPABASE_URL`
    - `SUPABASE_KEY`
